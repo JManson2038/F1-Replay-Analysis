@@ -18,7 +18,7 @@ driver_teams = {}
 
 TEAM_COLORS = {
     'Ferrari': '#FF2800',           # Red
-    'Red Bull Racing': '#00174C',   # Blue
+    'Red Bull Racing': '##3671C6',   # Blue
     'Mercedes': '#6CD3BF',          # Silver/Turquoise
     'McLaren': '#FF8000',           # Papaya Orange
     'Alpine': '#FF87BC',            # Pink
@@ -200,7 +200,7 @@ def update(frame):
 
     artists = []
 
-    # 🚦 Start lights
+    # Start lights
     for i, light in enumerate(start_lights):
         light.set_alpha(1.0 if current_t > i * LIGHT_INTERVAL else 0.3)
 
