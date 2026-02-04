@@ -1,6 +1,7 @@
 # F1-Sector-Analysis
 A Python project that analyzes Formula 1 race data using the FastF1 API, visualizes sector times
 f1_race_replay/
+
 ├── config.py           # Configuration constants and settings
 ├── driver.py           # Driver class with telemetry processing
 ├── data_loader.py      # FastF1 data loading and validation
